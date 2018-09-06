@@ -12,23 +12,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        setup()
-        // Do any additional setup after loading the view, typically from a nib.
+        setupView()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-    func setup() {
-        
-        let roundView = SwiftRoundView(x: 0.0, y: 0.0, width: 100.0, height: 100.0, cornerRadius: 50, borderWidth: 10, borderColor: .orange)
+    func setupView() {
+        let roundView = SwiftRoundView(x: 0.0, y: 0.0, width: 100.0, height: 100.0, cornerRadius: 50.0, borderWidth: 10.0, borderColor: .orange)
         roundView.backgroundColor = .red
         self.view.addSubview(roundView)
-        
     }
-    
 }
 
