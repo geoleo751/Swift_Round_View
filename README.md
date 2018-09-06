@@ -3,14 +3,14 @@ Easy way to implement Round UIViews in your iOS Apps
 
 ----------
 
-**IBInspectable** attributes accessible from the identity inspector. 
+Description
+----------- 
 
-- Roundness
-- Border width
-- Border color
-- Background color
+Change needed UIView attributes directly from the Identity Inspector 
 
-You can see the changes directly on the storyboard!
+- Border Color
+- Border Width
+- Corner Radius
 
 ----------
 
@@ -36,7 +36,7 @@ How to use
 
 - Initialize it in your ViewController
 ```
-    let roundView = SwiftRoundView(x: 0.0, y: 0.0, width: 100.0, height: 100.0, cornerRadius: 50, borderWidth: 10, borderColor: .orange)
+    let roundView = SwiftRoundView(x: 0.0, y: 0.0, width: 100.0, height: 100.0, cornerRadius: 50.0, borderWidth: 10.0, borderColor: .orange)
     self.view.addSubview(roundView)
 ```
 
