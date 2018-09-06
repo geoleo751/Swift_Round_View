@@ -1,4 +1,8 @@
 # Swift_Round_View
+
+[![4.0](https://img.shields.io/badge/Swift-4.0-green.svg)](https://developer.apple.com/swift/)
+[![MIT](https://img.shields.io/github/license/mashape/apistatus.svg)](https://opensource.org/licenses/MIT)
+
 Easy way to implement Round UIViews in your iOS Apps
 
 ----------
@@ -13,6 +17,8 @@ Change needed UIView attributes directly from the Identity Inspector
 - Corner Radius
 
 ----------
+
+![](Walkthrough.gif)
 
 Installation
 -------------
