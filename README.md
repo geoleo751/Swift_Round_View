@@ -36,7 +36,7 @@ How to use
 
 - Drag & drop a UIView to your Storyboard. 
 - Change its Class to SwiftRoundView 
-- Modify its valuew in the Attributes Inspector and watch your view change!!!!
+- Modify its values in the Attributes Inspector and watch your view change!!!!
 
 **Code:**
 
